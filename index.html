@@ -28,6 +28,15 @@
     left: 0;
     margin: 10px;
 }
+@media (max-width: 768px) {
+    .language-selector {
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        top: auto;
+        left: auto;
+    }
+}
 
 /* Style for the dropdown container */
 .dropdown {
@@ -541,6 +550,20 @@
     margin: 0 auto;
     max-width: 800px;
   }
+    @media (max-width: 768px) {
+        #input_options {
+            display: block;
+            width: 100% !important;
+            margin-left: 0!important;
+            margin-right: 0!important;
+        }
+        #input_options div {
+            margin-bottom: 40px!important;
+        }
+        #input_options a {
+            width: 100% !important;
+        }
+    }
   #input_options > div {
     display: -webkit-box;
     display: -ms-flexbox;
